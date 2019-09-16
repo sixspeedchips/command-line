@@ -9,5 +9,7 @@ public class CommandLineArgs {
     for (int i = 0; i < args.length; i++) {
       System.out.println(args[i].toUpperCase());
     }
+    System.out.println(Arrays.toString(args));
+
   }
 }
